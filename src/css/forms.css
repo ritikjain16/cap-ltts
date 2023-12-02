@@ -1,0 +1,89 @@
+.mycard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mycard h2 {
+  font-size: 35px;
+}
+
+.form-con {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+}
+
+.err {
+  color: red;
+  font-size: 14px;
+}
+
+.my-link {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+.my-link1 {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+
+.link2 {
+  color: gray;
+  transition: all 0.3s linear;
+  &:hover {
+    color: black;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 0 0.5rem gray;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+.landing-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}

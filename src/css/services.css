@@ -1,0 +1,53 @@
+.services-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 0 200px;
+}
+
+.service-type {
+  margin: 50px;
+}
+
+
+
+.service-type-text {
+  font-size: 50px;
+  margin: 30px 10px;
+}
+
+.type {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 70px;
+  color: #ff325e;
+  margin-top: 30px;
+}
+
+.checkout-service {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 0.5rem gray;
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  background-color: snow;
+}
+
+.bill-con{
+  margin: 50px;
+   padding: 20px;
+  box-shadow: 0 0 0.5rem gray;
+  border-radius: 20px;
+}
+
+.continue{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

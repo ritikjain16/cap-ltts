@@ -1,0 +1,50 @@
+.bookings-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* margin-left: 50px; */
+  margin-bottom: 20px;
+}
+.table1 {
+  margin: 181px 10px 10px 487px;
+  border-collapse: collapse;
+  letter-spacing: 2px;
+}
+.th1 {
+  padding: 27px;
+}
+.b {
+  /* margin: 50px 0px 0px 592px; */
+  font-size: 41px;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 600;
+}
+.table {
+  margin: -106px 0px 0 27px;
+  font-size: 20px;
+}
+
+.book-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 100px;
+  gap: 15px;
+}
+
+.onecon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-book{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

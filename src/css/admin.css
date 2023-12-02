@@ -1,0 +1,30 @@
+.users-det {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.users-con {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 15px;
+}
+
+.single-user{
+    font-size: 18px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 0.5rem rgb(216, 216, 216);
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        color: #ff325e;
+        transition: all 0.3s ease-in;
+        transform: scale(1.2);
+    }
+}
